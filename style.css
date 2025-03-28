@@ -1,0 +1,34 @@
+@charset "UTF-8";
+:root{
+    --bg:#e5ecff;
+}
+.title{
+    border:3px solid #000000;
+    background-color:white;
+    color:black;
+    width:200px;
+    height:100px;
+    font-family:"Yu Gothic";
+    font-size:30px;
+    margin-top:50px;
+    text-align:center;
+    padding:20px;
+}
+textarea{
+    margin:30px;
+    font-size:30px;
+    font-family:"Cascadia Code";
+    height:750px;
+    width:1300px;
+    resize:none;
+    position:fixed;
+}
+@media(max-width:768px){
+    .title{
+        display:none;
+    }
+    textarea{
+        height:500px;
+        width:300px;
+    }
+}
